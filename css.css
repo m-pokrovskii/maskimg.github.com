@@ -1,0 +1,69 @@
+.container {
+	margin:0 auto;
+	width: 1300px;
+	height: 977px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.container img, .top-part-rudder, .bottom-part-rudder, .svg-parameters, .left-armrest, .control-panel, .bot-d, .left-door {
+	position: absolute;
+}
+	.container img {
+		top:0; bottom: 0; z-index: 999;
+		display: block;
+	}
+
+.top-part-rudder {
+	left: 339px; top:142px;
+	background: green;
+	}
+
+.bottom-part-rudder {
+	left: 340px; top:520px;
+	width: 257px;
+	height: 75px;
+	background: url('stuff/gepard.png') 0 0 repeat red;
+	}
+
+	.bottom-part-rudder .svg-parameters{
+		right: 0; top:0;
+		width: 134px; height: 75px;
+	}
+
+	.left-armrest {
+		top: 488px; left: 0;
+		width: 149px; height: 143px;
+		background: url('stuff/gepard.png') 0 0 repeat;
+		}
+
+		.left-armrest .svg-parameters{
+			left: 0; bottom:0;
+			width: 141px; height: 111px;		
+			}
+
+	.control-panel {
+		top: 290px; left: 754px;
+		width: 228px; height: 457px;
+		background: url('stuff/gepard.png') 0 0 repeat black;
+		}
+
+		.control-panel .circle1 {
+			top: 135px; left:17px;
+			}
+
+
+.bot-d {
+	left:798px; top:745px;
+	width: 280px; height: 202px;
+	background: url('stuff/gepard.png') 0 0 repeat black;
+}
+
+.left-door {
+	left:63px; top:270px;
+	width: 50px; height: 108px;
+	background: url('stuff/gepard.png') 0 0 repeat;
+}
+
+

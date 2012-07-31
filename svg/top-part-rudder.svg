@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257 69" width="257px" height="69px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        svg { -webkit-background-clip: text; }
+    </style>
+	<defs>
+	  <mask id="mymask">
+		 <image xlink:href="../stuff/masks/1.png" x="0" y="0" width="257px" height="69px" />
+	  </mask>
+	</defs>
+	<image xlink:href="../stuff/gepard.png" mask="url(#mymask)" x="0" y="0" width="1200px" height="920px" />
+</svg>
